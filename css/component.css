@@ -39,8 +39,8 @@
 }
 
 .tabs nav li.tab-current {
-	border: 1px solid #47a3da;
-	box-shadow: inset 0 2px #47a3da;
+	border: 1px solid #2a2b30;
+	box-shadow: inset 0 2px #2a2b30;
 	border-bottom: none;
 	z-index: 100;
 }
@@ -53,7 +53,7 @@
 	right: 100%;
 	bottom: 0;
 	width: 1000px;
-	background: #47a3da;
+	background: #2a2b30;
 }
 
 .tabs nav li.tab-current:after {
@@ -76,7 +76,7 @@
 }
 
 .tabs nav li.tab-current a {
-	color: #47a3da;
+	color: #2a2b30;
 }
 
 /* Icons */
@@ -136,7 +136,7 @@
 .no-js .content section {
 	display: block;
 	padding-bottom: 2em;
-	border-bottom: 1px solid #47a3da;
+	border-bottom: 1px solid #2a2b30;
 }
 
 .content section.content-current {
