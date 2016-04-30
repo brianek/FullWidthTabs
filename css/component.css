@@ -48,7 +48,7 @@
 	right: 100%;
 	bottom: 0;
 	width: 1000px;
-	background: #47a3da;
+	background: ##2a2b30;
 }
 
 .tabs nav li.tab-current:after {
@@ -71,7 +71,7 @@
 }
 
 .tabs nav li.tab-current a {
-	color: #47a3da;
+	color: #2a2b30;
 }
 
 /* Icons */
