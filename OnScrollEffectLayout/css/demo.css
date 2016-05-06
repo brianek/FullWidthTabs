@@ -21,7 +21,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #fff;
-    background: #ffffff;
+    background: #df691a;
 }
 
 a {
@@ -82,7 +82,7 @@ a:hover {
 	margin-left: 4px;
 	position: absolute;
 	color: #47a3da;
-	background: #df691a;
+	background: #fff;
 }
 
 .container > header nav {
@@ -99,7 +99,7 @@ a:hover {
 	background: #47a3da;
 	border-radius: 50%;
 	margin: 0 0.1em;
-	border: 4px solid #df691a;
+	border: 4px solid #fff;
 }
 
 .container > header nav a > span {
@@ -108,7 +108,7 @@ a:hover {
 
 .container > header nav a:hover:before {
 	content: attr(data-info);
-	color: #df691a;
+	color: #fff;
 	position: absolute;
 	width: 600%;
 	top: 120%;
@@ -118,7 +118,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #df691a;
+	background: #fff;
 }
 
 .bp-icon:after {
@@ -129,7 +129,7 @@ a:hover {
 	font-variant: normal;
 	text-transform: none;
 	text-align: center;
-	color: #df691a;
+	color: #fff;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .container > header nav a:hover:after {
-	color: #ffffff;
+	color: #47a3da;
 }
 
 .bp-icon-next:after {
