@@ -139,14 +139,14 @@ box-shaddow: 2px 2px 5px; #666666;
 	}
 
 	.cbp-so-side img {
-		max-width: 120%;
+		max-width: 140%;
 	}
 }
 
 @media screen and (max-width: 41.125em) {
 	.cbp-so-side {
 		float: none;
-		width: 100%;
+		width: 120%;
 	}
 
 	.cbp-so-side img {
