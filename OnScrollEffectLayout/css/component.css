@@ -1,3 +1,25 @@
+input.MyButton {
+width: 300px;
+padding: 20px;
+font-weight: bold;
+font-size: 150%;
+background: #3366CC;
+color: #FFFFFF;
+cursor: pointer;
+border: 1px solid #999999;
+border-radius: 10px;
+-webkit-box-shadow: 6px 6px 5px #999999;
+-moz-box-shadow: 6px 6px 5px #999999;
+box-shaddow: 6px 6px 5px; #999999;
+}
+input.MyButton:hover {
+color: #FFFF00;
+background: #3366CC;
+border: 1px solid #A3A3A3;
+-webkit-box-shadow: 2px 2px 5px #666666;
+-moz-box-shadow: 2px 2px 5px #666666;
+box-shaddow: 2px 2px 5px; #666666;
+}
 .cbp-so-scroller {
 	margin-top: 3em;
 	overflow: hidden;
