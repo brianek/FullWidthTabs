@@ -30,6 +30,10 @@ a {
 	outline: none;
 }
 
+#logo_wrapper img {
+  max-width: 100%;
+  height: auto;
+}
 a:hover {
 	color: #000;
 }
