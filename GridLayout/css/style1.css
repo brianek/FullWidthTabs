@@ -46,7 +46,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #333;
+  color: #df691a;
   outline: none;
 }
 
@@ -144,7 +144,7 @@ button:focus {
 }
 
 .codrops-demos a.current-demo {
-  color: #333;
+  color: #df691a;
   font-weight: bold;
 }
 
@@ -852,7 +852,7 @@ button:focus {
   }
 
   body #cdawrap a:hover.carbon-poweredby {
-    color: #333;
+    color: #df691a;
   }
 
   body #cdawrap #cda-remove {
