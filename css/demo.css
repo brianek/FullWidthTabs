@@ -32,21 +32,21 @@ a {
 }
 
 #logo_wrapper img {
-  max-width: 100%;
+  max-width: 300%;
   height: auto;
 }
 a:hover {
 	color: #000;
 }
 input.MyButton {
-width: 300px;
+width: 200px;
 padding: 20px;
 font-weight: bold;
 font-size: 150%;
 background: #333333;
 color: #FFFFFF;
 cursor: pointer;
-border: 1px solid #999999;
+border: 1px solid #333333;
 border-radius: 10px;
 -webkit-box-shadow: 6px 6px 5px #999999;
 -moz-box-shadow: 6px 6px 5px #999999;
@@ -55,7 +55,7 @@ box-shaddow: 6px 6px 5px; #999999;
 input.MyButton:hover {
 color: #FFFF00;
 background: #333333;
-border: 1px solid #A3A3A3;
+border: 1px solid 333333;
 -webkit-box-shadow: 2px 2px 5px #666666;
 -moz-box-shadow: 2px 2px 5px #666666;
 box-shaddow: 2px 2px 5px; #666666;
