@@ -20,6 +20,12 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
+@font-face {
+font-family: 'Aleo Light';
+font-style: normal;
+font-weight: normal;
+src: local('Aleo Light'), url('Aleo-Light.woff') format('woff');
+}
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #2a2b30;
@@ -42,6 +48,7 @@ input.MyButton {
 width: 225px;
 padding: 5px;
 font-size: 120%;
+font-family: aleo light;
 background: #333333;
 color: #999999;
 cursor: pointer;
