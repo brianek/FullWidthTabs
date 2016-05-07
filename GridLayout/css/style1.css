@@ -244,7 +244,7 @@ button:focus {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #81c483;
+  background-color: #df691a;
   font-size: 0px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -516,7 +516,7 @@ button:focus {
 }
 
 .article-nav button:hover {
-  color: #333;
+  color: #df691a;
 }
 
 .meta--preview .meta__avatar,
