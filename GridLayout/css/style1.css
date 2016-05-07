@@ -21,8 +21,8 @@
 }
 
 body {
-  background: #2b3e50;
-  color: #2b3e50;
+  background: #4e5d6c;
+  color: #4e5d6c;
   font-weight: 400;
   font-size: 16px;
   font-family: "Martel Sans", Arial, sans-serif;
@@ -40,7 +40,7 @@ body {
 
 a {
   outline: none;
-  color: #2b3e50;
+  color: #4e5d6c;
   text-decoration: none;
 }
 
@@ -260,7 +260,7 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #81c483;
+  background: #df691a;
   content: '';
 }
 
@@ -285,7 +285,7 @@ button:focus {
   font-weight: bold;
   margin-left: 5px;
   cursor: pointer;
-  color: #81c483;
+  color: #df691a;
 }
 
 .dropdown::after {
@@ -299,7 +299,7 @@ button:focus {
   padding: 45px 55px 30px;
   position: relative;
   color: inherit;
-  background: #4e5d6c;
+  background: #2b3e50;
   min-height: 300px;
   cursor: pointer;
   text-align: center;
@@ -511,7 +511,7 @@ button:focus {
 
 .article-nav button {
   border: none;
-  color: #4e5d6c;
+  color: #2b3e50;
   background: none;
 }
 
@@ -554,7 +554,7 @@ button:focus {
 /* Grid footer */
 .page-meta {
   width: 100%;
-  background: #4e5d6c;
+  background: #2b3e50;
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
@@ -572,7 +572,7 @@ button:focus {
   z-index: 100;
   top: 0;
   left: 0;
-  background: #4e5d6c;
+  background: #2b3e50;
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
 }
@@ -655,7 +655,7 @@ button:focus {
 .category--full {
   font-size: 1.25em;
   margin-bottom: 20px;
-  color: #4e5d6c;
+  color: #2b3e50;
 }
 
 .title--full {
@@ -967,7 +967,7 @@ button:focus {
     position: absolute;
     top: 0;
     right: 0;
-    background: #4e5d6c;
+    background: #2b3e50;
     border-bottom: 1px solid #f5f5f5;
     width: 100vw;
     height: 50px;
