@@ -1,5 +1,5 @@
 input.MyButton {
-width: 500px;
+width: 550px;
 padding: 20px;
 font-weight: bold;
 font-size: 150%;
@@ -7,7 +7,7 @@ background: #df691a;
 color: #FFFFFF;
 cursor: pointer;
 border: 1px solid #999999;
-border-radius: 10px;
+border-radius: 5px;
 -webkit-box-shadow: 6px 6px 5px #999999;
 -moz-box-shadow: 6px 6px 5px #999999;
 box-shaddow: 6px 6px 5px; #999999;
