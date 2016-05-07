@@ -19,8 +19,8 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
-    background: #2b3e50;
+    color: #2b3e50;
+    background: #fff;
 }
 
 a {
@@ -80,8 +80,8 @@ a:hover {
 	left: auto;
 	margin-left: 4px;
 	position: absolute;
-	color: #47a3da;
-	background: #fff;
+	color: #fff;
+	background: #47a3da;
 }
 
 .container > header nav {
@@ -95,10 +95,10 @@ a:hover {
 	text-align: left;
 	width: 2.5em;
 	height: 2.5em;
-	background: #47a3da;
+	background: #fff;
 	border-radius: 50%;
 	margin: 0 0.1em;
-	border: 4px solid #fff;
+	border: 4px solid #47a3da;
 }
 
 .container > header nav a > span {
@@ -107,7 +107,7 @@ a:hover {
 
 .container > header nav a:hover:before {
 	content: attr(data-info);
-	color: #fff;
+	color: #47a3da;
 	position: absolute;
 	width: 600%;
 	top: 120%;
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #fff;
+	background: #47a3da;
 }
 
 .bp-icon:after {
@@ -128,7 +128,7 @@ a:hover {
 	font-variant: normal;
 	text-transform: none;
 	text-align: center;
-	color: #fff;
+	color: ##47a3da;
 	-webkit-font-smoothing: antialiased;
 }
 
