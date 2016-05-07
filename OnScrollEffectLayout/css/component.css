@@ -3,7 +3,7 @@ width: 300px;
 padding: 20px;
 font-weight: bold;
 font-size: 150%;
-background: #3366CC;
+background: #df691a;
 color: #FFFFFF;
 cursor: pointer;
 border: 1px solid #999999;
@@ -14,8 +14,8 @@ box-shaddow: 6px 6px 5px; #999999;
 }
 input.MyButton:hover {
 color: #FFFF00;
-background: #3366CC;
-border: 1px solid #A3A3A3;
+background: #df691a;
+border: 0px solid #A3A3A3;
 -webkit-box-shadow: 2px 2px 5px #666666;
 -moz-box-shadow: 2px 2px 5px #666666;
 box-shaddow: 2px 2px 5px; #666666;
