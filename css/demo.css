@@ -32,14 +32,14 @@ a {
 }
 
 #logo_wrapper img {
-  max-width: 300%;
+  max-width: 500%;
   height: auto;
 }
 a:hover {
 	color: #000;
 }
 input.MyButton {
-width: 250px;
+width: 225px;
 padding: 5px;
 font-size: 120%;
 background: #333333;
