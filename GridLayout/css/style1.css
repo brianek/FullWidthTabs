@@ -164,7 +164,7 @@ button:focus {
 
 .related a {
   display: block;
-  color: inherit;
+  color: #414741;
 }
 
 .related a:hover,
@@ -298,7 +298,7 @@ button:focus {
 .grid__item {
   padding: 45px 55px 30px;
   position: relative;
-  color: inherit;
+  color: #414741;
   background: #2b3e50;
   min-height: 300px;
   cursor: pointer;
