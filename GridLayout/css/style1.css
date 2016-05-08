@@ -164,12 +164,12 @@ button:focus {
 
 .related a {
   display: block;
-  color: #414741;
+  color: #ddd;
 }
 
 .related a:hover,
 .related a:focus {
-  color: #414741;
+  color: #ddd;
 }
 
 /* Main content */
@@ -298,7 +298,7 @@ button:focus {
 .grid__item {
   padding: 45px 55px 30px;
   position: relative;
-  color: #414741;
+  color: #ddd;
   background: #2b3e50;
   min-height: 300px;
   cursor: pointer;
