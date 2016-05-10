@@ -1,0 +1,291 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,300italic);
+body{
+    margin: 0px;
+    padding: 0px;    
+    font-family: Lato;
+    /*background: url('Office-desk.jpg') center left no-repeat;*/
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.iwantthisform{
+    display: block;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url('../images/iwantthisform.png') top center no-repeat;
+    z-index: 100;
+}
+#emf-container-outer{ 
+    border: 0px none;    
+    margin: 0px auto;
+    background: url('../images/Office-desk.jpg') center left no-repeat;
+    background-size: cover;
+}
+#emf-container{
+    width: 960px !important;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin: 0px auto 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.35);
+    background-color: #fff;
+    position: relative;
+    top: 30px;
+}
+#emf-logo{
+    padding: 15px 0 0 30px;
+}
+#emf-container #emf-form{
+    margin: 0px 0 50px 0;
+    padding: 0px 30px 80px 30px;
+}
+#emf-form-instruction .emf-head-widget:after,
+#emf-container-outer:after,
+#emf-container:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#emf-container .emf-head-widget{
+    padding: 0px !important;
+    border-bottom: none;
+    border-top: 3px solid #000;
+}
+#emf-container #emf-form-instruction {
+    position: relative;
+    bottom: -37px;
+}
+.emf-section-separator{
+    display: none;
+}
+.emf-li-field.emf-field-section_break h3{
+    border-bottom: 3px solid #000;
+    font-size: 17px !important;
+}
+.emf-field-text,
+.emf-field-signature{
+    float: left;
+    border: 1px solid #ccc;
+    width: 200px !important;
+}
+#emf-container ul li{
+    clear: none;
+    margin: 0px;
+}
+#emf-container #emf-form ul li.emf-li-field {
+  padding: 0px;
+}
+.emf-field-text .emf-div-field input{
+    border: none;
+    width: 100%;
+}
+
+/*content*/
+#emf-container #emf-form-title{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    float: left;
+}
+#emf-form-description{
+    background: #eee;
+    float: right;
+    width: 420px;
+    font-size: 12px;
+}
+#emf-form-description .description-one,
+#emf-form-description .description-two{
+    float: right;
+    width: 180px;
+    padding: 10px 10px 10px 0;
+    font-size: 13px
+}
+#emf-li-1,
+#emf-li-14,
+#emf-li-22{
+    width: 480px !important;
+    border-left: none;
+}
+#emf-li-2,
+#emf-li-15,
+#emf-li-23{
+    width: 417px !important;
+    border-left: none;
+    border-right: none;
+}
+#emf-li-3,
+#emf-li-16,
+#emf-li-24{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 900px !important;
+}
+#emf-li-7,
+#emf-li-20,
+#emf-li-28{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 415px !important;
+}
+#emf-container li div.emf-div-field div.three_column {
+  width: 250px !important;
+  float: right;
+}
+#emf-container li div.emf-div-field div.three_column input,
+#emf-container li div.emf-div-field div.three_column label{
+    cursor: pointer;
+}
+#emf-li-10,
+#emf-li-11{
+    width: 160px !important;
+    border-left: none;
+}
+#emf-li-12{
+    border-left: none;
+    border-right: none;
+    width: 576px !important;
+}
+.emf-field-section_break h3{
+    margin: 0 !important;
+}
+#emf-li-21 #element_21,
+#emf-li-36 #element_36,
+#emf-li-43 #element_43,
+#emf-li-49 #element_49{
+    padding: 0;
+    margin: 0;
+    
+}
+#emf-li-4,
+#emf-li-5,
+#emf-li-6,
+#emf-li-17,
+#emf-li-18,
+#emf-li-19,
+#emf-li-25,
+#emf-li-26,
+#emf-li-27,
+#emf-li-33,
+#emf-li-34,
+#emf-li-35,
+#emf-li-40,
+#emf-li-41,
+#emf-li-42,
+#emf-li-47,
+#emf-li-48,
+#emf-li-53,
+#emf-li-54{
+    width: 160px !important;
+    border-top: none;
+    border-left: none;
+}
+#emf-li-35,
+#emf-li-42{
+    border-right: none;
+    width: 255px !important;
+}
+#emf-li-48,
+#emf-li-54{
+    border-right: none;
+    width: 416px !important;
+}
+#emf-li-30,
+#emf-li-32,
+#emf-li-37,
+#emf-li-39,
+#emf-li-44,
+#emf-li-46,
+#emf-li-50,
+#emf-li-52{
+    border-left: none;
+    border-top: none;
+    width: 320px !important;
+}
+#emf-li-31,
+#emf-li-38,
+#emf-li-45,
+#emf-li-51{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 576px !important;
+}
+#emf-li-55 .emf-section-text{
+    background: #eee;
+    border-bottom: 2px solid #ccc;
+    padding: 5px !important;
+    text-align: justify;
+}
+.name-and-date{
+    width: 320px !important;
+    float: left;
+}
+.name-and-date #emf-li-56,
+.name-and-date #emf-li-57{
+    border-left: none;
+    border-top: none;
+    width: 320px !important;
+}
+#emf-li-58{
+    width: 576px !important;
+    float: left;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    height: 79px;
+    
+}
+#emf-form .emf-field-signature .emf-signature{
+    border: none;
+    height: 40px !important;
+}
+#emf-form .emf-field-signature .emf-signature-operation{
+    display: none;
+}
+
+/*---Checkboxes---*/
+
+.emf-field-new_checkbox .emf-div-field label{
+    padding-left: 20px !important;    
+}
+.emf-field-new_checkbox .emf-div-field input{
+    width: auto;
+    opacity: 0;    
+}
+.emf-field-new_checkbox .emf-div-field input+label{
+    margin: 0;
+    clear: none;
+    font-size: 14px;
+
+    /* Make look clickable because they are */
+    cursor: pointer;
+    
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAMElEQVR42mKZMWPGfwYyAAuISE9PZyRF08yZM/8zMZAJRjWOaiQPsMDSHqkaAQIMAGCqCbT2/F1XAAAAAElFTkSuQmCC') left center no-repeat;    
+}
+.emf-field-new_checkbox .emf-div-field input:checked+label{
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAf0lEQVR42p3QUQ3AIAwE0OsyAZMwKUhAAhImASeTgpRJmISOJfcBK1mAS+4DwmsTBIBiIiteqSojSEQUkxt1QV/23JTrKt0BE99F0PRAn6vs3oIbJ/oPvOptFrpicuBd5PnmYAuZs8AHQTnIwhZmE5h/aLHrhkwwH2XgeFQmIR6XRTVb24uqQgAAAABJRU5ErkJggg==') left center no-repeat;  
+}
+#emf-li-post-button input{
+    display: none;
+}
+.footer-built{
+    color:#fff;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+    padding:30px 0 50px;
+}
+
+
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
