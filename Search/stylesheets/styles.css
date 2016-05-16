@@ -16,7 +16,7 @@ LI A {
 }
 
 INPUT[type="text"] {
-	background: #ee6622;
+	background: #c6c6c6;
 	border: 0;
 	border-bottom: 1px solid #c6c6c6;
 	margin-bottom: 10px;
@@ -39,7 +39,7 @@ INPUT[type="text"] {
  * -------------------------------------------------------------------------------------------------
  */
 HEADER {
-	background: #3A3E3D;
+	background: #ee6622;
 	color: white;
 	min-height: 400px;
 	margin: 0 auto;
