@@ -20,7 +20,7 @@ LI A {
 }
 
 INPUT[type="text"] {
-	background: #c6c6c6;
+	background: #fff;
 	border: 0;
 	border-bottom: 1px solid #c6c6c6;
 	margin-bottom: 10px;
@@ -118,7 +118,7 @@ ARTICLE H4 {
 }
 
 ARTICLE LABEL {
-	background: #F5A732;
+	background: #ee6622;
 	color: white;
 	display: block;
 	font-size: 16px;
@@ -163,7 +163,7 @@ FOOTER {
 }
 
 .link {
-	color: white;
+	color: black;
 	font-size: 14px;
 	font-weight: 300;
 	letter-spacing: 1px;
