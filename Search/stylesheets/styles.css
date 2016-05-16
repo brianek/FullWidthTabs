@@ -43,7 +43,7 @@ INPUT[type="text"] {
  * -------------------------------------------------------------------------------------------------
  */
 HEADER {
-	background: #ee6622;
+	background: #fff;
 	color: white;
 	min-height: 400px;
 	margin: 0 auto;
@@ -84,7 +84,7 @@ HEADER H2 {
 }
 
 SECTION#body {
-	background: #f5a732;
+	background: #ee6622;
 }
 
 SECTION#body H2 {
